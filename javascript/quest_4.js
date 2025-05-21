@@ -25,19 +25,19 @@ class Aluno{
   
   const students = new Array(TOTAL_STUDENTS);
   
-  const student1 = new Aluno("Lídia", "Galdnio", 10, 9);
+  const student1 = new Aluno("Bianca", "Galdino", 10, 9);
   students[0]=student1; 
   
-  var student2 = new Aluno("Lady", "Gaga", 4, 3);
+  var student2 = new Aluno("Runin", "Fang", 4, 3);
   students[1]=student2;
   
-  var student3 = new Aluno("E", "Bony", 2, 10);
+  var student3 = new Aluno("Kitay", "Chen", 8, 10);
   students[2]=student3;
   
-  var student4 = new Aluno("Daron", "Malakian", 3, 9);
+  var student4 = new Aluno("Karol", "Gotto", 10, 10);
   students[3]=student4;
   
-  var student5 = new Aluno("Lee", "Felix", 6, 9);
+  var student5 = new Aluno("Nezha", "Yin", 6, 9);
   students[4]=student5;
   
   const showStudents = () => {
